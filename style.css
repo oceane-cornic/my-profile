@@ -1,0 +1,103 @@
+body { 
+	background-color: #c4a287;
+	color: rgb(30, 30, 30);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	font-weight: lighter;
+}  
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	color: #533745;
+    font-weight: 800;
+    letter-spacing: 10px;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+h2 {
+	color: #ab4e68;
+	font-size: 26px;
+	font-weight: 550;
+}
+a {
+	text-decoration: none;
+	color: #533745;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+a:hover {
+	color: #9d9171;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #dbd3ad;
+	color : beige;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue hover {
+	background-color: beige;
+	color: white;
+}
+
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 30px;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;	
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+	border: 1px solid #dbd3ad;
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;	
+}
+
+
+
+
+
+
+
+
+
